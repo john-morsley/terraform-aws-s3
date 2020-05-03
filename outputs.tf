@@ -6,7 +6,8 @@
 #      \____/ \__,_|\__| .__/ \__,_|\__|___/
 #                      | |                  
 #                      |_|                  
+#
 
-output "s3_bucket_id" {
+output "id" {
   value = aws_s3_bucket.this.id
 }

@@ -1,5 +1,7 @@
 ﻿# Terraform a VPC in AWS
 
+A Terraform module that creates a VPC in AWS.
+
 ## Examples
 
 For examples how to use, please refer to the examples folder.

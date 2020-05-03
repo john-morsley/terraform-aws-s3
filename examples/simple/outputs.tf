@@ -6,8 +6,9 @@
 #      \____/ \__,_|\__| .__/ \__,_|\__|___/
 #                      | |                  
 #                      |_|                  
+#
 
 output "s3_bucket_id" {
   description = "The ID of the S3 Bucket"
-  value       = module.s3_bucket.s3_bucket_id
+  value       = module.s3_bucket.id
 }
