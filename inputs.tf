@@ -6,7 +6,6 @@
 #     |_____|_| |_| .__/ \__,_|\__|___/
 #                 | |                  
 #                 |_|                  
-#
 
 variable "name" {
   description = "Name for the S3 Bucket"
