@@ -1,0 +1,1 @@
+﻿name = "simple-s3-bucket-example"

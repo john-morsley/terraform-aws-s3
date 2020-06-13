@@ -5,9 +5,6 @@
 #        \  / (_| | |  | | (_| | |_) | |  __/\__ \
 #         \/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
 
-variable "access_key" {}
-variable "secret_key" {}
-
-variable "region" {
-  default = "eu-west-2" # London
+variable "name" {
+  type = string
 }
