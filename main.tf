@@ -1,4 +1,4 @@
-﻿#       _____   ____    ____             _        _   
+#       _____   ____    ____             _        _   
 #      / ____| |___ \  |  _ \           | |      | |  
 #     | (___     __) | | |_) |_   _  ___| | _____| |_ 
 #      \___ \   |__ <  |  _ <| | | |/ __| |/ / _ \ __|
@@ -6,9 +6,9 @@
 #     |_____/  |____/  |____/ \__,_|\___|_|\_\___|\__|
 
 resource "aws_s3_bucket" "this" {
-  
+
   bucket = var.name
-  
+
   acl = var.access_control_list
 
   versioning {
@@ -28,5 +28,5 @@ resource "aws_s3_bucket" "this" {
   }
 
   force_destroy = true
-  
+
 }
