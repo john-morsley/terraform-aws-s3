@@ -1,4 +1,4 @@
-﻿# Simple S3 Bucket
+# Simple S3 Bucket
 
 In this example we will create a simple S3 Bucket.
 
